@@ -7,3 +7,7 @@ function connectToDB() {
 }
 
 module.exports = connectToDB
+
+
+
+//in dot env file MONGO_URI=mongodb://0.0.0.0/dbname
