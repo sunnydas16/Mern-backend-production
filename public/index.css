@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    height: 40vh;
+    width: 30%;
+    background-color: rgb(109, 229, 229);
+}
+
+.form form{
+    height: 100%;
+    width: 100%;
+    display:flex;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.form form input{
+    width: 100%;
+    padding: 2vh;
+    background-color: yellow;
+    border-radius: 40vh;
+    border: 3px white solid;
+}
+.form form button{
+    width: 100%;
+    padding: 2vh 5vh;
+    background-color: yellow;
+    border-radius: 40vh;
+    border: 3px white solid;
+}
+
